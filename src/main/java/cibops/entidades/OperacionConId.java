@@ -5,7 +5,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-import cibops.externas.Operacion;
+import es.mde.cibops.Operacion;
 
 @Entity
 @Table(name = "Operaciones")
@@ -23,8 +23,6 @@ public class OperacionConId extends Operacion {
 		this.id = id;
 	}
 
-	public OperacionConId() {
-
-	}
+	public OperacionConId() {}
 
 }

@@ -6,7 +6,7 @@
         http://java.sun.com/xml/ns/persistence/orm_1_0.xsd"
 	version="1.0">
 
-	<mapped-superclass class="cibops.externas.Operacion"
+	<mapped-superclass class="es.mde.cibops.Operacion"
 		access="FIELD">
 		<attributes>
 			<basic name="nombre" optional="false">
