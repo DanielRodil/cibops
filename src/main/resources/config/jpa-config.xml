@@ -31,6 +31,9 @@
 		<property name="mappingResources">
             <list>
             	<value>jpa/Operacion.orm.xml</value>
+            	<value>jpa/ActividadOperativa.orm.xml</value>
+            	<value>jpa/GestionJudicial.orm.xml</value>
+            	<value>jpa/Evento.orm.xml</value>
             </list>
         </property>
 	</bean>

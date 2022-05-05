@@ -6,19 +6,13 @@
         http://java.sun.com/xml/ns/persistence/orm_1_0.xsd"
 	version="1.0">
 
-	<mapped-superclass class="es.mde.cibops.Operacion" access="FIELD">
+	<mapped-superclass class="es.mde.cibops.Evento" access="FIELD">
 		<attributes>
 			<basic name="nombre" optional="false">
 				<column name="NOMBRE" />
 			</basic>
 			<basic name="descripcion" optional="false">
 				<column name="DESCRIPCION" />
-			</basic>
-			<basic name="fechaApertura" optional="false">
-				<column name="FECHA_APERTURA" />
-			</basic>
-			<basic name="fechaCierre" optional="true">
-				<column name="FECHA_CIERRE" />
 			</basic>
 		</attributes>
 	</mapped-superclass>
